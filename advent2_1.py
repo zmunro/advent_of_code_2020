@@ -1,5 +1,5 @@
 valid_passwords_count = 0
-with open("files/advent3_and_4_file.txt") as advent3_f:
+with open("files/advent2_input.txt") as advent3_f:
     for line in advent3_f.readlines():
         line_parts = line.split(" ")
         min_occurences = int(line_parts[0].split("-")[0])

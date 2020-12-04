@@ -12,7 +12,7 @@ def get_nums_that_sum(number_list, desired_sum):
 
 
 numbers = []
-with open("files/advent1_and_2_file.txt") as advent1_and_2_f:
+with open("files/advent1_input.txt") as advent1_and_2_f:
     for line in advent1_and_2_f.readlines():
         numbers.append(int(line.strip()))
 

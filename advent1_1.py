@@ -1,7 +1,7 @@
 from collections import defaultdict
 
 num_dict = defaultdict(bool)
-with open("files/advent1_and_2_file.txt") as advent1_and_2_f:
+with open("files/advent1_input.txt") as advent1_and_2_f:
     for line in advent1_and_2_f.readlines():
         num_dict[int(line.strip())] = True
 
