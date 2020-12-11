@@ -1,8 +1,9 @@
+
 import queue
 from collections import defaultdict
 
 
-lines = open("advent10.txt", 'r').readlines()
+lines = open("10.txt", 'r').readlines()
 built_in_adapter_rating = max([int(x) for x in lines]) + 3
 
 adapters = defaultdict(bool)
